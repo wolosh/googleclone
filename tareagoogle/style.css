@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+header button {
+  font-size: 13px;
+  font-weight: 500;
+  border: 0px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header button:hover{
+  text-decoration: underline;
+}
+header img {
+    height: 50px;
+}
+
+#centro {
+    display: flex; /* utiliza flexbox para alinear los elementos */
+    flex-direction: column; /* alinea los elementos verticalmente */
+    justify-content: center; /* centra los elementos horizontalmente */
+    align-items: center; /* centra los elementos verticalmente */
+  }
+
+#centro img {
+    width: 272px;
+    position: relative;
+    top: 50px;
+
+
+}
+
+#barrabusqueda {
+    width: 40%;
+    height: 30px;
+    position: relative;
+    top: 80px;
+
+  }
+  #barrabusqueda {
+    border: 1px solid #ccc; /* agrega un borde sólido con un color gris claro */
+    border-radius: 20px; /* agrega bordes redondeados de 20px de radio */
+    padding: 10px; /* agrega un relleno de 10px a la barra de búsqueda */
+    font-size: 18px; /* establece el tamaño de fuente de la barra de búsqueda a 18px */
+  }
+
+  #opcionesnav {
+    display: inline-block;
+  }
+  .botones {
+    height: 100%;
+    position: relative;
+    top: 90px;
+    
+  }
+#opcionesnav {
+    margin: 0 5px 0 5px;
+}
+
+main button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #dadce0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3c4043;
+    background-color: #f8f9fa;
+  }
+  
+  main button:hover {
+    border: 1px solid #1a73e8;
+    color: #1a73e8;
+  }
+
+  .zona {
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+  .zona li {
+    display: inline-block;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.zona a{
+  text-decoration: none;    
+}
+
+.zona a:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #70757a;
+
+}
+
+footer .Pais {
+  padding: 0 20px;
+  border-bottom: 1px solid #dadce0;
+}
+
+footer .barrapie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+
+footer .piedepagizq {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+footer .piedepagder {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+footer .piedepagder div {
+  padding: 15px;
+}
+
+footer .piedepagizq div {
+  padding: 15px;
+}
